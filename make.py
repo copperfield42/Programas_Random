@@ -1,5 +1,5 @@
 """Script para cythonize todos los .pyx"""
-import sys, os, shutil, contextlib, argparse 
+import sys, os, shutil, contextlib#, argparse 
 from Cython.Build import Cythonize, cythonize
 
 #TO DO: incluir command line options
